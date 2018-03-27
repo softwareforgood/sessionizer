@@ -2,8 +2,8 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  conference: "Samvera Connect"
-  conference_full: "Samvera Connect 2017"
+  conference: "CodeSwitch"
+  conference_full: "CodeSwitch"
   map: 'Map'
   signup: 'Unconference signup'
   wiki: "https://wiki.duraspace.org/display/samvera/Samvera+Connect+2017"

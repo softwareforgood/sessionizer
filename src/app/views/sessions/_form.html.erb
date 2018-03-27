@@ -8,10 +8,7 @@
      <%= f.input :name, :label => 'Your name', :hint => "Please use your real name. This will be used in our printed materials." %>
      <%= f.input :email, :label => 'Your email', :hint => "Please use a real email address. We need this to contact you about your presentation." %>
     <% end %>
-
-    <%= f.input :categories, :as => :check_boxes %>
-    <%= f.input :level, :as => :select, :label => 'Topic level' %>
  <% end %>
 
- <%= f.actions %>
+ <%= f.action :submit, label: "Create Project", wrapper_html: { class: ['action', 'input_action', 'no-list-style'] }  %>
 <% end %>

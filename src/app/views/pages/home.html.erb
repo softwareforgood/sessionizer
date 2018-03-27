@@ -1,4 +1,4 @@
-<% title(t('conference') + ' Session Registration') %>
+<% title(t('conference') + ' Hackathon') %>
 
 <div class="row">
   <div class="column grid_6" style="margin-left:0px">
@@ -11,8 +11,12 @@
     <% end %>
   </div>
 
-  <%= render partial: 'pages/aside' %>
+  <div class="column grid_4">
+    <div class="add-session-now">
+      <h2><%= link_to 'Add Project', new_session_path %></h2>
+    </div>
+  </div>
+
+  <%# render partial: 'pages/aside' %>
 
 </div>
-
-
